@@ -19,6 +19,8 @@ Telas do Sistema
 ### Tipos de Pagamentos
 ![Tipos de Pagamentos](prints/tela_Tipos_pagamentos.png)
 
+### Emissão Relatorio
+![Emissão Relatorio](prints/tela_Periodo_Relatorio.png)
 
 Projeto acadêmico desenvolvido no curso de **Sistemas de Informação**, com o objetivo de aplicar conceitos fundamentais de programação, como lógica, estrutura de dados e banco de dados, em um sistema desktop.
 
