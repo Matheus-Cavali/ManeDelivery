@@ -1,5 +1,25 @@
 Sistema de Gestão de Pedidos
 
+Telas do Sistema
+### Tela Principal
+![Tela Principal](prints/tela_principal.png)
+
+### Novo Pedido
+![Novo Pedido](prints/tela_Novo_Pedido.png)
+
+### Gerenciamento de Pedidos
+![Gerenciamento de Pedidos](prints/tela_Gerenciamento_Pedidos.png)
+
+### Alteração de Pedidos
+![Alteração de Pedidos](prints/tela_Alteração_Pedidos.png)
+
+### Cadastro de Produtos
+![Cadastro de Produtos](prints/tela_Cadastro_Produtos.png)
+
+### Tipos de Pagamentos
+![Tipos de Pagamentos](prints/tela_Tipos_pagamentos.png)
+
+
 Projeto acadêmico desenvolvido no curso de **Sistemas de Informação**, com o objetivo de aplicar conceitos fundamentais de programação, como lógica, estrutura de dados e banco de dados, em um sistema desktop.
 
 Descrição:
