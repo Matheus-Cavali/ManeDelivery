@@ -5,22 +5,22 @@ Telas do Sistema
 ![Tela Principal](prints/Tela_principal.png)
 
 ### Novo Pedido
-![Novo Pedido](prints/tela_Novo_Pedido.png)
+![Novo Pedido](prints/Tela_Novo_Pedido.png)
 
 ### Gerenciamento de Pedidos
-![Gerenciamento de Pedidos](prints/tela_Gerenciamento_Pedidos.png)
+![Gerenciamento de Pedidos](prints/Tela_Gerenciamento_Pedidos.png)
 
 ### Alteração de Pedidos
-![Alteração de Pedidos](prints/tela_Alteração_Pedidos.png)
+![Alteração de Pedidos](prints/Tela_Alteração_Pedidos.png)
 
 ### Cadastro de Produtos
-![Cadastro de Produtos](prints/tela_Cadastro_Produtos.png)
+![Cadastro de Produtos](prints/Tela_Cadastro_Produtos.png)
 
 ### Tipos de Pagamentos
-![Tipos de Pagamentos](prints/tela_Tipos_pagamentos.png)
+![Tipos de Pagamentos](prints/Tela_Tipos_pagamentos.png)
 
 ### Emissão Relatorio
-![Emissão Relatorio](prints/tela_Periodo_Relatorio.png)
+![Emissão Relatorio](prints/Tela_Periodo_Relatorio.png)
 
 Projeto acadêmico desenvolvido no curso de **Sistemas de Informação**, com o objetivo de aplicar conceitos fundamentais de programação, como lógica, estrutura de dados e banco de dados, em um sistema desktop.
 
