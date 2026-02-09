@@ -2,7 +2,7 @@ Sistema de Gestão de Pedidos
 
 Telas do Sistema
 ### Tela Principal
-![Tela Principal](prints/tela_principal.png)
+![Tela Principal](prints/Tela_principal.png)
 
 ### Novo Pedido
 ![Novo Pedido](prints/tela_Novo_Pedido.png)
