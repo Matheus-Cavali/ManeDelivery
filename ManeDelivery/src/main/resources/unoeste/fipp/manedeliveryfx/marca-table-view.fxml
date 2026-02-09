@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="443.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unoeste.fipp.manedeliveryfx.MarcaTableController">
+    <children>
+        <HBox alignment="CENTER" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" prefWidth="791.0" spacing="24.0" style="-fx-background-color: white;">
+            <children>
+                <TextField fx:id="tfPesquisar" onKeyTyped="#onPesquisar" prefHeight="25.0" prefWidth="597.0" />
+                <Button mnemonicParsing="false" onAction="#onNovoMarca" style="-fx-background-color: white; -fx-border-color: grey; -fx-border-radius: 10;" text="Novo" />
+            </children>
+        </HBox>
+
+        <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="coId" maxWidth="30.0" minWidth="30.0" prefWidth="30.0" text="ID" />
+                <TableColumn fx:id="coNome" prefWidth="600.0" text="Nome" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+            <contextMenu>
+                <ContextMenu>
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onAlterar" text="Alterar" />
+                        <MenuItem mnemonicParsing="false" onAction="#onApagar" text="Apagar" />
+                    </items>
+                </ContextMenu>
+            </contextMenu>
+        </TableView>
+
+        <HBox alignment="CENTER" maxHeight="60.0" minHeight="60.0" prefHeight="60.0" prefWidth="791.0" style="-fx-background-color: white;">
+            <children>
+                <Button mnemonicParsing="false" onAction="#onFechar" prefHeight="36.0" prefWidth="100.0" style="-fx-background-color: #2F4538;" text="Fechar" textFill="#f5f5f5">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </children>
+</VBox>

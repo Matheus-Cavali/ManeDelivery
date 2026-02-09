@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="408.0" prefWidth="602.0"
+      xmlns="http://javafx.com/javafx/23.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="unoeste.fipp.manedeliveryfx.TiposPagamentosFormController">
+
+   <children>
+      <Label text="ID" textFill="#2768eb">
+         <font><Font size="11.0"/></font>
+      </Label>
+      <TextField fx:id="tfId" editable="false"/>
+
+      <Label text="Nome" textFill="#2768eb">
+         <font><Font size="11.0"/></font>
+         <VBox.margin><Insets top="16.0"/></VBox.margin>
+      </Label>
+      <TextField fx:id="tfNome"/>
+
+      <HBox alignment="CENTER" prefHeight="108.0" prefWidth="570.0" spacing="60.0">
+         <children>
+            <Button text="Confirmar" mnemonicParsing="false" onAction="#onConfirmar"
+                    prefHeight="33.0" prefWidth="83.0"
+                    style="-fx-background-color: white; -fx-border-color: gray; -fx-border-radius: 8;"/>
+            <Button text="Cancelar" mnemonicParsing="false" onAction="#onCancelar"
+                    prefHeight="33.0" prefWidth="83.0"
+                    style="-fx-background-color: white; -fx-border-color: gray; -fx-border-radius: 8;"/>
+         </children>
+         <VBox.margin><Insets top="20.0"/></VBox.margin>
+      </HBox>
+   </children>
+
+   <padding>
+      <Insets top="16.0" right="16.0" bottom="16.0" left="16.0"/>
+   </padding>
+</VBox>
